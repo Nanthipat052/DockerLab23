@@ -1,4 +1,4 @@
-kname: CI with Docker Compose
+name: CI with Docker Compose
 
 on:
   push:
