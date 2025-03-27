@@ -16,5 +16,5 @@ jobs:
       - name: Run docker-compose
         run: docker compose up -d
 
-      - name: Simulate Test
-        run: echo "Running tests... ✅"
+      - name: Test
+        run: docker-compose exec -T backend pytest tests/
